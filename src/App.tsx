@@ -12,19 +12,16 @@ import { useAuth } from "./context/AuthContext";
 import BasicTableThree from "./components/tables/BasicTables/BasicTableThree";
 import TableUserRol from "./components/tables/BasicTables/TableUserRol";
 import TableEntidades from "./components/tables/BasicTables/TableEntidades";
+import TableReporteS from "./components/tables/BasicTables/TableReporteS";
 
 // ✅ Componentes de prueba / placeholders
-const Reportes = () => <div className="p-6 text-gray-800 dark:text-gray-100">📋 Gestión de Reportes
-<BasicTableThree></BasicTableThree>
-</div>;
-const Usuarios = () => <div className="p-6 text-gray-800 dark:text-gray-100">👥 Usuarios y Roles
-<TableUserRol/>
-</div>;
+const Reportes = () => <div className="p-6 text-gray-800 dark:text-gray-100"><BasicTableThree/></div>;
+const Usuarios = () => <div className="p-6 text-gray-800 dark:text-gray-100"><TableUserRol/></div>;
 const Historico = () => <div className="p-6 text-gray-800 dark:text-gray-100">📊 Histórico</div>;
-const Entidades = () => <div className="p-6 text-gray-800 dark:text-gray-100">🏢 Gestión de Entidades<TableEntidades/></div>;
+const Entidades = () => <div className="p-6 text-gray-800 dark:text-gray-100"><TableEntidades/></div>;
 
-const MisReportes = () => <div className="p-6 text-gray-800 dark:text-gray-100">📝 Mis Reportes</div>;
-const ReportesResponsables = () => <div className="p-6 text-gray-800 dark:text-gray-100">📁 Reportes de Responsables</div>;
+const MisReportes = () => <div className="p-6 text-gray-800 dark:text-gray-100"><BasicTableThree/></div>;
+const ReportesResponsables = () => <div className="p-6 text-gray-800 dark:text-gray-100"><TableReporteS/></div>;
 const Consultas = () => <div className="p-6 text-gray-800 dark:text-gray-100">🔍 Consulta General</div>;
 const Trazabilidad = () => <div className="p-6 text-gray-800 dark:text-gray-100">📈 Trazabilidad / Métricas</div>;
 

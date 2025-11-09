@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function BasicTableThree() {
+export default function TableReporteR() {
   const [reportes, setReportes] = useState([
     {
       id: "RPT-001",
